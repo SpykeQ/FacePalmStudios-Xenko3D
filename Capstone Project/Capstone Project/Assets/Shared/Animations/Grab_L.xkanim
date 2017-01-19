@@ -1,0 +1,10 @@
+!Animation
+Id: d5763dfd-3aef-4048-b6b6-7bca8e680eda
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Animation/Grab_L.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: 127fb0c0-5f93-409a-a548-1c8702297981:Models/HandModelLeft Skeleton
+RootMotion: false
+PreviewModel: 7797e106-f857-4fb1-b439-26998433619b:Models/HandModelLeft

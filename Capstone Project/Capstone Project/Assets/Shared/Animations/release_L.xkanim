@@ -1,0 +1,10 @@
+!Animation
+Id: ae64c67b-c115-4c75-b88c-f7833ee58d47
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Animation/release_L.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: 127fb0c0-5f93-409a-a548-1c8702297981:Models/HandModelLeft Skeleton
+RootMotion: false
+PreviewModel: 7797e106-f857-4fb1-b439-26998433619b:Models/HandModelLeft

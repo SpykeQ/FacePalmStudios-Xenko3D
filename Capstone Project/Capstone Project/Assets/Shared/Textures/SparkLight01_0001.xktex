@@ -1,0 +1,7 @@
+!Texture
+Id: 554fa019-36d7-4e6c-a0ba-c9ace57ffdd7
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../Resources/Textures/SparkLight01.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Format: Color16Bits

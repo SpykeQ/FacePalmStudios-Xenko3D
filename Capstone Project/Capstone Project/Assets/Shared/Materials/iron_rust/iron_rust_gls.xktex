@@ -1,0 +1,6 @@
+!Texture
+Id: 02a98055-0608-4d17-b5ba-e20b1fbf4594
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/iron_rust/iron_rust_gls.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

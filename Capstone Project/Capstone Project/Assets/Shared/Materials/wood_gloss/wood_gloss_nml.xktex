@@ -1,0 +1,7 @@
+!Texture
+Id: 859ca05a-988f-4725-a255-cc1a1f799d2b
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/wood_gloss/wood_gloss_nml.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Hint: NormalMap

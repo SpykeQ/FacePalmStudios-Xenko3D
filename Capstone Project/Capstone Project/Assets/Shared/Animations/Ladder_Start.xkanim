@@ -1,0 +1,10 @@
+!Animation
+Id: 2b0d0924-c16b-4776-b71c-d7a69729254f
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Animation/Ladder_Start.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: 0624cf9b-787e-4168-9174-59b85db48fe1:Models/mannequinModel Skeleton
+RootMotion: false
+PreviewModel: 1b60c030-d11a-4639-89c8-238b45df5f98:Models/mannequinModel

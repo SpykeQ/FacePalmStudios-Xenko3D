@@ -1,0 +1,8 @@
+!Texture
+Id: d5586763-f3cd-4640-b3db-c544528310a0
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../Resources/Textures/xenko_coin_a_normals.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Hint: NormalMap
+Alpha: None

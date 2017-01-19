@@ -1,0 +1,6 @@
+!Texture
+Id: 872fd0bc-7cc1-40ae-882d-735c4c31c435
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../Resources/Textures/dota.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

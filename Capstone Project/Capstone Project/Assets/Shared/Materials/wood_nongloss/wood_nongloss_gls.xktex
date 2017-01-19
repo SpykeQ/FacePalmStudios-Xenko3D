@@ -1,0 +1,6 @@
+!Texture
+Id: a991df38-045b-49b4-883a-9bac742f12fc
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/wood_nongloss/wood_nongloss_gls.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

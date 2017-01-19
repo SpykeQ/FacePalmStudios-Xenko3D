@@ -1,0 +1,6 @@
+!Texture
+Id: a8f225d6-6145-4bdb-886c-1338d69fdb6c
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../Resources/Textures/gold/gold_gls.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

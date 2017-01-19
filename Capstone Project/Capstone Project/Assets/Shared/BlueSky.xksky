@@ -1,0 +1,5 @@
+!SkyboxAsset
+Id: 4a8be639-51e5-44fa-80a0-f6311ff249b5
+Tags: []
+Model: !SkyboxCubeMapModel
+    CubeMap: 47cc6e9b-e2a8-411b-a231-a2a1afc828ea:sky

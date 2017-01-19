@@ -1,0 +1,40 @@
+!Package
+Id: 10f6a340-626e-4962-840a-8f422f15d84f
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: Capstone Project
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: Capstone_Project
+    Dependencies:
+        -   Name: Xenko
+            Version: 1.9.3-beta
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: Capstone Project.Game/Effects
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: bc6d450b-2ca5-46ea-be14-936d711694d7
+                Location: Capstone Project.Game/Capstone Project.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 187d2585-237b-46d2-8f49-73f8a03a16a0
+                Location: Capstone Project.Windows/Capstone Project.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets: []

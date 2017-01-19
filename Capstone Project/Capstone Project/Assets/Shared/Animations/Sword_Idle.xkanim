@@ -1,0 +1,10 @@
+!Animation
+Id: 19399917-a621-47c6-820d-6b53a65a45b4
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../Resources/Animation/Sword_Idle.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Skeleton: 0624cf9b-787e-4168-9174-59b85db48fe1:Models/mannequinModel Skeleton
+RootMotion: false
+PreviewModel: 1b60c030-d11a-4639-89c8-238b45df5f98:Models/mannequinModel

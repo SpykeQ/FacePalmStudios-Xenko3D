@@ -1,0 +1,5 @@
+C:\Users\Joseph Braunstein\Desktop\FacePalmStudios-Xenko3D\Capstone Project\Capstone Project\Bin\Windows\Debug\Capstone Project.Game.dll
+C:\Users\Joseph Braunstein\Desktop\FacePalmStudios-Xenko3D\Capstone Project\Capstone Project\Bin\Windows\Debug\Capstone Project.Game.pdb
+C:\Users\Joseph Braunstein\Desktop\FacePalmStudios-Xenko3D\Capstone Project\Capstone Project\Capstone Project.Game\obj\Windows\Debug\Capstone Project.Game.csprojResolveAssemblyReference.cache
+C:\Users\Joseph Braunstein\Desktop\FacePalmStudios-Xenko3D\Capstone Project\Capstone Project\Capstone Project.Game\obj\Windows\Debug\Capstone Project.Game.dll
+C:\Users\Joseph Braunstein\Desktop\FacePalmStudios-Xenko3D\Capstone Project\Capstone Project\Capstone Project.Game\obj\Windows\Debug\Capstone Project.Game.pdb

@@ -1,0 +1,7 @@
+!Texture
+Id: d3f30776-28b6-46ff-8448-e19fc43b2a05
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../Resources/Textures/rooftile/rooftile_nml.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Hint: NormalMap
