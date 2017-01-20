@@ -1,0 +1,7 @@
+!Texture
+Id: f7c9e646-e8ff-4e97-a93b-90f9b94c60f0
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../marth_3d_model__ssbb_by_vert092-d3l5ttd/Marth (Super Smash Bros. Brawl)/MarEyeWhite.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+PremultiplyAlpha: false

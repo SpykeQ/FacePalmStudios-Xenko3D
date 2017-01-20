@@ -1,0 +1,45 @@
+!Skeleton
+Id: 846e00ee-c41a-4c3c-bb89-c0ecd54e69a2
+SerializedVersion: {Xenko: 1.7.8-beta}
+Tags: []
+Source: ../../../../../marth_3d_model__ssbb_by_vert092-d3l5ttd/Marth (Super Smash Bros. Brawl)/Marth.obj
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    a8740189215d479a4d50717838a831f2: {Name: Marth.obj, Depth: 0}
+    c64bc5a430c830624bbec81ca1af06b8: {Name: defaultobject_1, Depth: 1}
+    d26f295c819cb24d6185a0b85b96d107: {Name: defaultobject_2, Depth: 1}
+    469a6461ee9cbbccb2fe4709e25858fe: {Name: defaultobject_3, Depth: 1}
+    bbdf31ff728799fe34b76f27245d2ca7: {Name: defaultobject_4, Depth: 1}
+    57fcaa62b1535675850f012312de50e9: {Name: defaultobject_5, Depth: 1}
+    35a2d4f98b432448eb24a4e59096dea6: {Name: defaultobject_6, Depth: 1}
+    8107b8e64279cc062a1038905bb4755b: {Name: defaultobject_7, Depth: 1}
+    dcc994ce6794ffe016b9ec71258f62ba: {Name: defaultobject_8, Depth: 1}
+    afded96a30be1c4f6a26fe28ccbc4226: {Name: defaultobject_9, Depth: 1}
+    0a94a5c3d441f311ac91d54619c685a1: {Name: defaultobject_10, Depth: 1}
+    8a3598f155309fc916c81a084d0b7840: {Name: defaultobject_11, Depth: 1}
+    2bcaa558a041cc52ad26d5d1eea057cb: {Name: defaultobject_12, Depth: 1}
+    86b490b31d54c2a10c16803d26811333: {Name: defaultobject_13, Depth: 1}
+    e1f764a09d03a54673ada71bdfe30695: {Name: defaultobject_14, Depth: 1}
+    9211e163d40edbf73417a32aa1262a15: {Name: defaultobject_15, Depth: 1}
+    11b28553d1c91a4c7c71d36becbb9471: {Name: defaultobject_16, Depth: 1}
+    0f6ea64863e52c0f0077063ec7de1721: {Name: defaultobject_17, Depth: 1}
+    6337cc7eeb9e0e72d1ac1a9e639299b5: {Name: defaultobject_18, Depth: 1}
+    f5ed379c86aa473ebd8a340913440f77: {Name: defaultobject_19, Depth: 1}
+    e7882b5a97456ab4e9789e1294cd037f: {Name: defaultobject_20, Depth: 1}
+    446b6cf637a2cc27733a28ff16038c52: {Name: defaultobject_21, Depth: 1}
+    e3acc82997e75fa9f4470b576e9f18c9: {Name: defaultobject_22, Depth: 1}
+    d773eff48fc743218a13f01ae5c723e9: {Name: defaultobject_23, Depth: 1}
+    c76b78fe93efbee485e1de68093389d5: {Name: defaultobject_24, Depth: 1}
+    52f605c63f19f7187b216ba24a8769c8: {Name: defaultobject_25, Depth: 1}
+    430a157e81fbc6911309e36a2f787d0a: {Name: defaultobject_26, Depth: 1}
+    eb7ba533b8ea7c23661faff370457586: {Name: defaultobject_27, Depth: 1}
+    3264d700d9021a4ce16b8c8074943a70: {Name: defaultobject_28, Depth: 1}
+    1aa007ea4ad60924d43da87008553765: {Name: defaultobject_29, Depth: 1}
+    8bc54377e63002df593db0785e16ba10: {Name: defaultobject_30, Depth: 1}
+    345d99277192f52981e7246dbc07f764: {Name: defaultobject_31, Depth: 1}
+    22282972abbaf43913d822e4eb306d9d: {Name: defaultobject_32, Depth: 1}
+    a00e502d90734a49d8154fd42f9dd725: {Name: defaultobject_33, Depth: 1}
+    ae9154c8b5b5d56afcf5e2316b4dc0f4: {Name: defaultobject_34, Depth: 1}
+    8820f9c249ff52cd6fe9104953573a6b: {Name: defaultobject_35, Depth: 1}
+    0f3c08fc517c0830f2cd4f56d1f66a59: {Name: defaultobject_36, Depth: 1}
+    c01e4a75d9f58fc26989f55cc4b98703: {Name: defaultobject_37, Depth: 1}

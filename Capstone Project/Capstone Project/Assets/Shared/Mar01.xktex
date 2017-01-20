@@ -1,0 +1,7 @@
+!Texture
+Id: c2e4b9e9-54d3-4959-834b-a016d63788d0
+SerializedVersion: {Xenko: 1.4.0-beta}
+Tags: []
+Source: ../../../../../marth_3d_model__ssbb_by_vert092-d3l5ttd/Marth (Super Smash Bros. Brawl)/Mar01.png
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+PremultiplyAlpha: false

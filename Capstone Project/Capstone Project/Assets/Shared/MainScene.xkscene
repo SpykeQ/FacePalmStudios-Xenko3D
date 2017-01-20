@@ -103,6 +103,8 @@ Hierarchy:
         - c25beb11-e22d-4d13-a1d8-9692304bdb7d
         - 30d67432-3453-47a1-ac17-2e8971af7929
         - 538e5a2e-3f1d-4f41-a5f3-4e7fdb5d528b
+        - d12790cb-e3ac-4292-abde-8a2635f198f1
+        - f5f8b8e0-6aac-4127-a6e1-2c88c073ae26
     Parts:
         -   Entity:
                 Id: 30d67432-3453-47a1-ac17-2e8971af7929
@@ -138,7 +140,7 @@ Hierarchy:
                 Components:
                     525bf31918b4def281fea2bec5c6cbef: !TransformComponent
                         Id: 73da7c7f-f13e-4d61-8dfb-f8da743dcc04
-                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Position: {X: 0.325991869, Y: 3.73297334, Z: 0.819020867}
                         Rotation: {X: -0.5540323, Y: 0.212012157, Z: 0.1484525, W: 0.7912401}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -175,6 +177,30 @@ Hierarchy:
                         Type: !LightSkybox {}
                         Intensity: 0.25
         -   Entity:
+                Id: d12790cb-e3ac-4292-abde-8a2635f198f1
+                Name: Marth
+                Components:
+                    559d257d04d544f1727a7d65f4ae7163: !TransformComponent
+                        Id: 289d8ae9-a292-4693-8968-7d094d031d29
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.01, Y: 0.01, Z: 0.01}
+                        Children: {}
+                    3c75037405d73e5963c2c7ca54d82905: !ModelComponent
+                        Id: 91439366-449a-4204-aa80-aa86c72f4f70
+                        Model: e4ec6e97-d4a6-4d4e-b934-73547a79d0e1:Marth
+                        Materials:
+                            24c70e9160eb367bcc23c6c4fb96b9a6~0: daa9da0a-efda-4496-8187-0d57e01937df:Marth01
+                            d6289c79d9b024ebe4bd84277852e4fa~1: 9f9806e0-775c-4e78-9d80-9af6399c8d60:Marth02
+                            8a0a41f01983c823959b5b5d54f22ffd~2: 419ec231-3c11-41c8-ae31-881f3af5f491:Marth03
+                            ef6cd40419d68657b2e8f12c7748dc69~3: f17547ec-87b8-4537-817c-2010bf99bd23:Marth04
+                            cd6345d0f785beacec512ab5836f0e64~4: 8bd8d859-9d53-4540-884a-12bc5fa2a051:Marth05
+                            93ca33817de73a28542320769c87d278~5: 6be6be75-370d-4ec8-8f48-c581d46c3737:Marth06
+                            79021e321f480913d32d1aea05950c12~6: 5df3d232-0461-4270-afd7-e1bedee89f7a:Marth07
+                            6864afae5747c88aad2bea89a93b5841~7: 3f35e742-8094-4426-afff-9d117b73b234:EyeIris
+                            9f4cdcc1cc25d331ad51d2db4d563972~8: 496504cf-2e24-4ef9-9ab0-a2d22dfda2f9:EyeWhite
+                            9402b69a0a43c3a0b39701b7376713dd~9: 101d1116-54f2-44d8-88ef-893463eccaa0:EyeHigh
+        -   Entity:
                 Id: d18bc50c-57cd-4412-9645-aa02442200c4
                 Name: Camera
                 Components:
@@ -195,3 +221,21 @@ Hierarchy:
                         KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
                         MouseRotationSpeed: {X: 90.0, Y: 60.0}
                         TouchRotationSpeed: {X: 60.0, Y: 40.0}
+        -   Entity:
+                Id: f5f8b8e0-6aac-4127-a6e1-2c88c073ae26
+                Name: Spot light
+                Components:
+                    a2bf3600dd1931bd4518e54d69a45dd4: !TransformComponent
+                        Id: 0a1908e4-f841-4adb-8216-dc4b99f4ec0a
+                        Position: {X: 0.0, Y: 3.71478224, Z: 1.02208993E-07}
+                        Rotation: {X: -0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c0596eab522e7e99c45dd80014c2de14: !LightComponent
+                        Id: e806bc7b-92fb-4bbf-99f2-09bc73268e26
+                        Type: !LightSpot
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                BiasParameters:
+                                    DepthBias: 0.001

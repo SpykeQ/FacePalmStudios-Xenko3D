@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: 25b1a3f8-ee6b-4034-9ace-3d5eb3ab5a56:Materials/PolishedStone
 Skeleton: null
+~SourceHashes:
+    c6aaf5ac977076314fee173cb28b0e46~../../../Resources/Stand/plateC.fbx: b1ae603bb597856abb9e8d4bc846fb1e

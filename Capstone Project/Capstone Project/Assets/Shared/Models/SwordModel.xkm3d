@@ -22,3 +22,5 @@ Materials:
         MaterialInstance:
             Material: 6ccd2a28-6eb2-40f5-b5c2-dd6191fd9053:Materials/BodyWhite
 Skeleton: null
+~SourceHashes:
+    5d9e87a046309d807137adfe7b24b68b~../../../Resources/Models/SwordModel.fbx: f21eb0d2f6563aa8f6a26b74477d96d5

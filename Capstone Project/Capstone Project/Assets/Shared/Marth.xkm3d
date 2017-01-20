@@ -1,0 +1,52 @@
+!Model
+Id: e4ec6e97-d4a6-4d4e-b934-73547a79d0e1
+SerializedVersion: {Xenko: 1.5.0-alpha02}
+Tags: []
+Source: ../../../../../marth_3d_model__ssbb_by_vert092-d3l5ttd/Marth (Super Smash Bros. Brawl)/Marth.obj
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    1f806a54559d28b3eee5dd9bc9a3a15e:
+        Name: Marth01
+        MaterialInstance:
+            Material: daa9da0a-efda-4496-8187-0d57e01937df:Marth01
+    ff4ee85e30fea2f4b2cfcce8831a2015:
+        Name: Marth02
+        MaterialInstance:
+            Material: 9f9806e0-775c-4e78-9d80-9af6399c8d60:Marth02
+    4a090904a2357e20f6c7ae63a2547293:
+        Name: Marth03
+        MaterialInstance:
+            Material: 419ec231-3c11-41c8-ae31-881f3af5f491:Marth03
+    aa69e410fdb1d5a8cb964a3e870a5740:
+        Name: Marth04
+        MaterialInstance:
+            Material: f17547ec-87b8-4537-817c-2010bf99bd23:Marth04
+    5c52cb9bb0f30ebbdedd47098cac2522:
+        Name: Marth05
+        MaterialInstance:
+            Material: 8bd8d859-9d53-4540-884a-12bc5fa2a051:Marth05
+    7dcadb1e70f68ae54cfd3758bc6e5de2:
+        Name: Marth06
+        MaterialInstance:
+            Material: 6be6be75-370d-4ec8-8f48-c581d46c3737:Marth06
+    8d6ec560cfe6812907d49b67b6024d1a:
+        Name: Marth07
+        MaterialInstance:
+            Material: 5df3d232-0461-4270-afd7-e1bedee89f7a:Marth07
+    aa390ce24b49b3c81e79227a888eae2a:
+        Name: EyeIris
+        MaterialInstance:
+            Material: 3f35e742-8094-4426-afff-9d117b73b234:EyeIris
+    8bf83df84cb02e999667d16f64718302:
+        Name: EyeWhite
+        MaterialInstance:
+            Material: 496504cf-2e24-4ef9-9ab0-a2d22dfda2f9:EyeWhite
+    093a11f4344a8b369094e8ce13a3b4a9:
+        Name: EyeHigh
+        MaterialInstance:
+            Material: 101d1116-54f2-44d8-88ef-893463eccaa0:EyeHigh
+    7f1fb453fcd5826284f8432717bba30a:
+        Name: default
+        MaterialInstance:
+            Material: 01626471-f310-4400-8eab-6100de74c31e:default
+Skeleton: 846e00ee-c41a-4c3c-bb89-c0ecd54e69a2:Marth Skeleton

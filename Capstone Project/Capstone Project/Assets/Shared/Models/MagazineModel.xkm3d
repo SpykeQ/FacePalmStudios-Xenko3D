@@ -22,3 +22,5 @@ Materials:
         MaterialInstance:
             Material: 6ccd2a28-6eb2-40f5-b5c2-dd6191fd9053:Materials/BodyWhite
 Skeleton: null
+~SourceHashes:
+    bfc675e11e64f154b63f544a34a67d15~../../../Resources/Models/MagazineModel.fbx: 76bc45bc990ccc3a003c4aa1da508514

@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: 08af58e9-82db-46d0-b227-34fb852d1354:Materials/marble/marble
 Skeleton: null
+~SourceHashes:
+    69fd66b80ed4d7b8b6d1385fb6a1de6b~../../Resources/Models/box.fbx: 63047528a4b8c7fc888656181dd4dc07

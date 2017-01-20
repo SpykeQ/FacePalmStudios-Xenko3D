@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: 59933c13-93b6-4280-bde5-d8287d0b4b1d:Materials/GridMT
 Skeleton: null
+~SourceHashes:
+    52c1c84e322549cef09a561e820bc699~../../../Resources/Models/Box3x1x1.fbx: d04f55c381a74e658e8af67372e144ce

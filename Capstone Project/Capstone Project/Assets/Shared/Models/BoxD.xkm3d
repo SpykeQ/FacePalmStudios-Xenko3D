@@ -14,3 +14,5 @@ Materials:
         MaterialInstance:
             Material: 38006c22-1499-4380-91d2-f22b7081d51f:Materials/FrameB
 Skeleton: null
+~SourceHashes:
+    f74ec60558bed34cbce9b231d38f09a5~../../../Resources/Models/XenkoCrate.fbx: 6e3a5526c1cdb7001c9b7ea51ac583a0

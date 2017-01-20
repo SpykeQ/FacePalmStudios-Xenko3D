@@ -2,8 +2,8 @@
 Settings:
     Package/SceneSettings:
         d475106b-7ac2-44c8-a4a9-9eda375e6f1d:
-            CamPosition: {X: 4.0, Y: 4.0, Z: 4.0}
-            CamPitchYaw: {X: -0.5235988, Y: 0.7853982}
+            CamPosition: {X: 2.941996, Y: 4.36508, Z: 0.28541106}
+            CamPitchYaw: {X: -0.638675451, Y: 1.70551324}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -29,3 +29,7 @@ Settings:
                 - Transform
             NavigationVisible: false
             NavigationWireframes: false
+    Templates/ModelFromFile/DefaultSkeleton: 00000000-0000-0000-0000-000000000000
+    Templates/ModelFromFile/ImportMaterials: true
+    Templates/ModelFromFile/ImportSkeleton: true
+    Templates/ModelFromFile/ImportTextures: true

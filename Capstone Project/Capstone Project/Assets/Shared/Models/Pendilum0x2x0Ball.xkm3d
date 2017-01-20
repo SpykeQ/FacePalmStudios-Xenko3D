@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: 59933c13-93b6-4280-bde5-d8287d0b4b1d:Materials/GridMT
 Skeleton: null
+~SourceHashes:
+    49c47f31541821a7c315b999e6620bc1~../../../Resources/Models/Pendilum0x2x0Ball.fbx: f1049b864923d2791106d77325e8da6d

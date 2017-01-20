@@ -10,3 +10,5 @@ Materials:
         MaterialInstance:
             Material: 25b1a3f8-ee6b-4034-9ace-3d5eb3ab5a56:Materials/PolishedStone
 Skeleton: null
+~SourceHashes:
+    901821876ccebf8c7c380df3eac2ac64~../../../Resources/Stand/standCurved.fbx: 4de6d17c7a13eb0dc0cfcda7302d8671

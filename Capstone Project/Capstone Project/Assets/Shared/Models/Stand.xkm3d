@@ -14,3 +14,5 @@ Materials:
         MaterialInstance:
             Material: 722be9e6-41c7-49c9-9e57-69c73c88342f:Materials/RedCoating
 Skeleton: null
+~SourceHashes:
+    145fd150a09f03ec6da7d7a3689d7e77~../../../Resources/Stand/Pd_ground.FBX: c170a2977ef51a92b83f375a71be5f26
