@@ -2,8 +2,8 @@
 Settings:
     Package/SceneSettings:
         d475106b-7ac2-44c8-a4a9-9eda375e6f1d:
-            CamPosition: {X: 2.941996, Y: 4.36508, Z: 0.28541106}
-            CamPitchYaw: {X: -0.638675451, Y: 1.70551324}
+            CamPosition: {X: 3.2672348, Y: 4.45414448, Z: -0.490372449}
+            CamPitchYaw: {X: -0.683319867, Y: 1.6968962}
             CamProjection: Perspective
             CamVerticalFieldOfView: 45.0
             CamOrthographicSize: 10.0
@@ -16,7 +16,7 @@ Settings:
             RotationSnapValue: 22.5
             ScaleSnapActive: false
             ScaleSnapValue: 1.1
-            SelectionMaskVisible: true
+            SelectionMaskVisible: false
             GridVisible: true
             CameraPreviewVisible: true
             RenderMode: Lighting
