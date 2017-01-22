@@ -98,12 +98,12 @@ SceneSettings:
                     Enabled: false
 Hierarchy:
     RootPartIds:
-        - d18bc50c-57cd-4412-9645-aa02442200c4
         - 5d867056-0d3d-4e4f-8dac-2298ea0064c8
         - c25beb11-e22d-4d13-a1d8-9692304bdb7d
         - 30d67432-3453-47a1-ac17-2e8971af7929
-        - 538e5a2e-3f1d-4f41-a5f3-4e7fdb5d528b
+        - 76bc3d4c-6132-4187-ae5f-003c7ed864da
         - d12790cb-e3ac-4292-abde-8a2635f198f1
+        - d18bc50c-57cd-4412-9645-aa02442200c4
     Parts:
         -   Entity:
                 Id: 30d67432-3453-47a1-ac17-2e8971af7929
@@ -118,20 +118,6 @@ Hierarchy:
                     2447295927581975ad59e7abae6a81df: !ModelComponent
                         Id: cae8086c-3d51-4fef-89fa-d6c89674f2a6
                         Model: 159e4c77-e2dd-4c21-8bda-85771b839de1:Ground
-                        Materials: {}
-        -   Entity:
-                Id: 538e5a2e-3f1d-4f41-a5f3-4e7fdb5d528b
-                Name: Sphere
-                Components:
-                    c414876ffb8dda735674930b76b623fa: !TransformComponent
-                        Id: eb1a7093-5dbc-44ce-a7d1-b4ad1851321d
-                        Position: {X: -2.03806973, Y: 0.5, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
-                        Children: {}
-                    56aba76beedc1b3c0893e638ca2326f6: !ModelComponent
-                        Id: 4fc5d83e-59ee-49be-ba29-558f99f58f08
-                        Model: 5645e47f-1be0-4701-8341-187690fbc649:Sphere
                         Materials: {}
         -   Entity:
                 Id: 5d867056-0d3d-4e4f-8dac-2298ea0064c8
@@ -158,6 +144,20 @@ Hierarchy:
                                 BiasParameters: {}
                         Intensity: 5.0
         -   Entity:
+                Id: 76bc3d4c-6132-4187-ae5f-003c7ed864da
+                Name: Ground (2)
+                Components:
+                    46b71ba0a92474ed4d9445e39122fbfe: !TransformComponent
+                        Id: 08bbfd3b-b55d-4dad-b4b3-40ddcc2805e6
+                        Position: {X: 17.6916027, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2447295927581975ad59e7abae6a81df: !ModelComponent
+                        Id: cae8086c-3d51-4fef-89fa-d6c89674f2a6
+                        Model: 159e4c77-e2dd-4c21-8bda-85771b839de1:Ground
+                        Materials: {}
+        -   Entity:
                 Id: c25beb11-e22d-4d13-a1d8-9692304bdb7d
                 Name: Skybox
                 Components:
@@ -181,8 +181,8 @@ Hierarchy:
                 Components:
                     559d257d04d544f1727a7d65f4ae7163: !TransformComponent
                         Id: 289d8ae9-a292-4693-8968-7d094d031d29
-                        Position: {X: -4.38070774, Y: 0.0, Z: 0.0}
-                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Position: {X: 2.9718317E-14, Y: 0.0, Z: -4.18247843}
+                        Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
                         Scale: {X: 0.01, Y: 0.01, Z: 0.01}
                         Children: {}
                     3c75037405d73e5963c2c7ca54d82905: !ModelComponent
@@ -199,24 +199,19 @@ Hierarchy:
                             9337eb41ff3a32186d8e3fd0c7802b8d~7: 3f35e742-8094-4426-afff-9d117b73b234:EyeIris
                             ab6f205250105cc911b7f55ae1de087c~8: 496504cf-2e24-4ef9-9ab0-a2d22dfda2f9:EyeWhite
                             5c67fd64bc7d31d35a98b755fcb9433c~9: 101d1116-54f2-44d8-88ef-893463eccaa0:EyeHigh
-        -   Entity:
+        -   Folder: 
+            Entity:
                 Id: d18bc50c-57cd-4412-9645-aa02442200c4
                 Name: Camera
                 Components:
                     8319c3b8498c374e71ea755ee4d1f5d0: !TransformComponent
                         Id: ae292776-fd5a-4061-b044-6feda49be54b
-                        Position: {X: -2.195829, Y: 1.45733738, Z: 0.0579978526}
-                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Position: {X: -6.28345574E-19, Y: 1.5, Z: -2.0}
+                        Rotation: {X: -0.04361939, Y: -8.15577952E-11, Z: -1.86798066E-09, W: 0.999048233}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     021d65e6084d1e8bf829744d15dc4bb0: !CameraComponent
                         Id: 4b33bf65-077d-4946-82af-a1f33893a46b
                         Projection: Perspective
-                    936207570a0aa2f7d44db597446ca4c4: !Capstone_Project.BasicCameraController,Capstone%2520Project.Game
-                        Id: 45ed7841-4a99-4203-8602-090e691d23bb
-                        KeyboardMovementSpeed: {X: 5.0, Y: 5.0, Z: 5.0}
-                        TouchMovementSpeed: {X: 40.0, Y: 40.0, Z: 20.0}
-                        SpeedFactor: 5.0
-                        KeyboardRotationSpeed: {X: 3.0, Y: 3.0}
-                        MouseRotationSpeed: {X: 90.0, Y: 60.0}
-                        TouchRotationSpeed: {X: 60.0, Y: 40.0}
+                    31182b6524b771b11279ce5c33195efb: !Capstone_Project.Movement,Capstone%2520Project.Game
+                        Id: a981319a-7dae-458b-acc5-e307e6563c6e

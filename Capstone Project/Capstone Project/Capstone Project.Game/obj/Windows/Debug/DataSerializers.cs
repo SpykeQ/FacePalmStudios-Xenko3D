@@ -24,6 +24,7 @@ namespace SiliconStudio.DataSerializers
 {
     // Assembly attributes that defines supported serializer (only generics one so that other assemblies can do generic instantiations by themselves)
     [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Capstone_Project_BasicCameraControllerSerializer), typeof(Capstone_Project.BasicCameraController), DataSerializerGenericMode.None, true, true, Profile = "Default")]
+    [DataSerializerGlobalAttribute(typeof(SiliconStudio.DataSerializers.Capstone_Project_MovementSerializer), typeof(Capstone_Project.Movement), DataSerializerGenericMode.None, true, true, Profile = "Default")]
    	public static class Capstone_Project_GameSerializerFactory
 	{
 	    [SiliconStudio.Core.ModuleInitializer]
@@ -47,6 +48,7 @@ namespace SiliconStudio.DataSerializers
 				assemblySerializers.Profiles["Default"] = assemblySerializersProfile;
 
 				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0xd36dc2d2, 0x34a62588, 0x33711b6d, 0x44862a96), typeof(Capstone_Project.BasicCameraController), typeof(SiliconStudio.DataSerializers.Capstone_Project_BasicCameraControllerSerializer)));
+				assemblySerializersProfile.Add(new AssemblySerializerEntry(new SiliconStudio.Core.Storage.ObjectId(0x657c292c, 0xf92461a6, 0x0e98c1bd, 0xe3cdaf77), typeof(Capstone_Project.Movement), typeof(SiliconStudio.DataSerializers.Capstone_Project_MovementSerializer)));
 			}
 			{
 				var assemblySerializersProfile = new AssemblySerializersPerProfile();
@@ -127,6 +129,36 @@ namespace SiliconStudio.DataSerializers
             KeyboardRotationSpeedSerializer.Serialize(ref touchRotationSpeed, mode, stream);
             if (mode == ArchiveMode.Deserialize)
                 obj.TouchRotationSpeed = touchRotationSpeed;
+		}
+
+		internal static void ForceGenericInstantiation()
+		{
+		}
+	}
+}
+
+namespace SiliconStudio.DataSerializers
+{
+	sealed class Capstone_Project_MovementSerializer : ClassDataSerializer<Capstone_Project.Movement>
+	{
+		private DataSerializer<SiliconStudio.Xenko.Engine.SyncScript> parentSerializer;
+
+		public override void Initialize(SerializerSelector serializerSelector)
+		{
+			// Get parent serializer
+			parentSerializer = serializerSelector.GetSerializer<SiliconStudio.Xenko.Engine.SyncScript>();
+			if (parentSerializer == null)
+				throw new InvalidOperationException(string.Format("Could not find parent serializer for type {0}", @"SiliconStudio.Xenko.Engine.SyncScript"));
+			// Cache member serializers
+		}
+
+		public override void Serialize(ref Capstone_Project.Movement obj, ArchiveMode mode, SerializationStream stream)
+		{
+			// Serialize parent (for now we don't copy reference back because it shouldn't change)
+			SiliconStudio.Xenko.Engine.SyncScript parentObj = obj;
+			parentSerializer.Serialize(ref parentObj, mode, stream);
+			obj = (Capstone_Project.Movement)parentObj;
+
 		}
 
 		internal static void ForceGenericInstantiation()
