@@ -2,7 +2,7 @@
 Id: e4ec6e97-d4a6-4d4e-b934-73547a79d0e1
 SerializedVersion: {Xenko: 1.5.0-alpha02}
 Tags: []
-Source: ../../../../../marth_3d_model__ssbb_by_vert092-d3l5ttd/Marth (Super Smash Bros. Brawl)/Marth.obj
+Source: marth_3d_model__ssbb_by_vert092-d3l5ttd/Marth (Super Smash Bros. Brawl)/Marth.obj
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Materials:
     1f806a54559d28b3eee5dd9bc9a3a15e:
